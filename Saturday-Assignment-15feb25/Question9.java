@@ -14,8 +14,8 @@ public class Question9 {
 		
 		Iterator<Object> it = list.listIterator();
 		while(it.hasNext()) {
-			System.out.println(it.next());
 			Object temp = it.next();
+			System.out.println(temp));
 			System.out.println(list.indexOf(temp));
 		}
 		
